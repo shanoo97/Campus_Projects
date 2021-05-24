@@ -1,0 +1,200 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+     initial-scale=1.0, maximum-scale=1.0, minimum-scale = 1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Multisplit Bill Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="public/css/styles.css">
+    <script defer src="./public/scripts/accounts.js"></script>
+</head>
+<body class="signupbody">
+  
+
+
+    <header>
+        <div class="container">
+            <nav class = "nav">
+            <div class="menu-toggle">
+                <i class = "fas fa-bars"></i>
+                <i class = "fas fa-times"></i>
+            </div>
+            <a href="/" class = "logo"><img class = "l" src="public/resources/logo.png" alt=""></a>
+            <ul class ="nav-list">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="account" class="nav-link active">Account</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about" class="nav-link">About</a>
+                </li>
+                <form action="/database/logout" method="post">
+                  <li class="nav-item"> 
+                <button class="nav-link" id="logoutbut" type="submit">logout</button>     
+                 </form>
+                </li>
+            </ul>
+            </nav>
+        </div>  
+      </header>
+
+      
+
+
+      <section id="createHouseBox" >
+        <div class="container1">
+          <h1 class = "headline" id = "headline"> Welcome! Create or Join a House To Get Started!</h1>
+        </div>
+       
+          <div class="form-area-house">
+            <div class="img-area">
+              <img class="loginimg" src="public/resources/house.png" alt="">
+            </div>
+            <h1 class="headline headline-dark">Create a House</h1>
+            <form action="/database/addHouse" method="post">
+
+        <div class="form">
+          <label for = "" class="label"> House Name </label><br>
+          <input type="text" class="input" id="houseName" name="houseName" placeholder="My Home">
+        </div>
+        <div class="form">
+          <label class="label">Password</label>
+          <input type="password" class="input" id="housepassword" name="housepassword" placeholder="*******">
+        </div>
+
+        <div class="button">
+          <button class="btn cta-btn" type="submit">Create House</button>
+        </div> 
+            </form>
+          </div>
+       
+
+       
+          <div class="form-area-house1">
+            <div class="img-area">
+              <img class="loginimg" src="public/resources/joinhouse.png" alt="">
+            </div>
+            <h1 class="headline headline-dark">Join a House</h1>
+            <form action="/database/joinHouse" method="post">
+
+        <div class="form">
+          <label for = "" class="label"> House Name </label><br>
+          <input type="text" class="input" id="jhouseName" name="jhouseName" placeholder="Slaughter House">
+        </div>
+        <div class="form">
+          <label class="label">Password</label>
+          <input type="password" class="input" id="jhousepassword" name="jhousepassword" placeholder="*******">
+        </div>
+
+        <div class="button">
+          <button class="btn cta-btn" type="submit">Join House</button>
+        </div> 
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <section id= "inHouse">
+        
+        <div class="container1">
+          <h1 class = "headline" id = "headline2"> Welcome!</h1>
+        </div>
+
+     
+          <div class="form-area-house3">
+            <h1 class="headline headline-dark">Who has to pay me:</h1>
+            <div class="form" id="imowed">
+            </div>
+            </form>
+          </div>
+       
+
+        
+          <div class="form-area-house2">
+            <h1 class="headline headline-dark">Who I have to pay:</h1>
+        <div class="form" id="iowe">
+        </div>
+            </form>
+          </div>
+        </div>
+      
+        
+
+      <div class = "buttons">
+        <div class="button">
+          <button type="button" class="btn cta-btn" onclick="window.location.href='expenses'">Post an Expense</button>
+        </div> 
+        <div class="button">
+          <button type="button" class="btn cta-btn"  onclick="window.location.href='settledebt'">Post a Settlement</button>
+        </div> 
+        <form class="button" action="/database/log" method="post">
+          <button type="submit" class="btn cta-btn" >Download House Transactions Log</button>
+        </form>
+        <div class="button">
+          <button type="button"  onclick="window.location.href='/updatedetails'"  class="btn cta-btn">Update my Details</button>
+        </div> 
+        <form class="button" action="/database/leaveHouse" method="post">
+          <button class="btn cta-btn" type="submit">Leave House</button>
+        </form>
+        </div>
+
+      </div>
+
+
+        </div>
+      </section>
+
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="back-to-top">
+            <a href="#"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-content-about">
+                <h4>Multisplit Details</h4>
+                <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                <p>Johannesburg, South Africa
+                </p>
+                <br>
+            </div>
+            <div class="footer-content-divider">
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src ="public/scripts/main.js"></script>
+</body>
+</html>

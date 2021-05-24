@@ -1,0 +1,116 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+     initial-scale=1.0, maximum-scale=1.0, minimum-scale = 1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Multisplit Bill Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/public/scripts/login.js"></script>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body class="signupbody">
+
+
+    <header>
+        <div class="container">
+            <nav class = "nav">
+            <div class="menu-toggle">
+                <i class = "fas fa-bars"></i>
+                <i class = "fas fa-times"></i>
+            </div>
+            <a href="/" class = "logo"><img class = "l" src="public/resources/logo.png" alt=""></a>
+            <ul class ="nav-list">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="signup" class="nav-link">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login" class="nav-link active">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about" class="nav-link">About</a>
+                </li>
+            </ul>
+            </nav>
+        </div>  
+      </header>
+
+   
+
+      <section id="loginbox">
+        <div class = "container animate-right">
+          <div class="form-area">
+            <div class="img-area">
+              <img class="loginimg" src="public/resources/login.png" alt="">
+            </div>
+            <h1 class="headline headline-dark">Login to Your Account</h1>
+            <form action="/database/auth" method="post" id="login">
+              <div class="form">
+                <label for="userName_" class="label" >Username</label>
+                <input class="input" type="text" placeholder="Enter Username" name="userName_" required>
+              </div>
+              <div class="form">
+                <label for="psw" class="label">Password</label>
+                <input class="input" type="password" placeholder="Enter Password" name="psw" required>
+              </div>    
+              <div class="button">
+                <button class="btn cta-btn" type="submit">Login</button>
+              </div> 
+            
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+
+<footer>
+    <div class="container">
+        <div class="back-to-top">
+            <a href="#loginbox"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-content-about animate-top">
+                <h4>Multisplit Details</h4>
+                <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                <p>Johannesburg, South Africa
+                </p>
+                <br>
+            </div>
+            <div class="footer-content-divider animate-bottom">
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src ="public/scripts/main.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,6 @@
+This project was completed for the course Fundamentals of Networks 
+
+
+We had to create an FTP server client application and follow the RFC 959 protocol to make it compatible with other clients and servers 
+
+Coded in python 

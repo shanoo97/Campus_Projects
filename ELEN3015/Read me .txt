@@ -1,0 +1,11 @@
+This course focused on Cryptography
+
+We learned the underlying techniques for  cryptographic functions such RSA DES AES. 
+
+In Lab 1 we bit of work on solving different types of ciphers 
+Lab 2 we worked with the DES algorithm	
+Lab 3 we worked with RSA
+Lab 4 we were creating  a simple simulation of blockchain and to establish attack vectors (Didn't get a good mark for this lab LOL)
+Lab 5 we worked with hamming codes 
+
+Note: All the source codes are for matlab

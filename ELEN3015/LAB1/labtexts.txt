@@ -1,0 +1,24 @@
+Introduction
+
+One of the most powerful tools in providing security to valuable information
+is the use of encrytion. This lab explores the common classical encryption
+techniques, the principles upon which many modern ciphers are built. 
+
+Monoalphabetic substitution ciphers will be explored, and techniques that 
+are used to 'crack' plaintext that is enciphered using them. Columnar 
+transposition ciphers will also be explored.
+
+-------------------------------------------
+22 character long text for question 3(a)
+
+thedayisnotlonganymore
+
+91 character long text for question 3(b)
+                                                                                          
+computingequipmentisuselesswithouthesoftwarethatusersexpecttherearemanyprogramminglanguages
+
+20 character long text for question 3(c)
+
+acomputerisvaluable
+
+

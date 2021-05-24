@@ -1,0 +1,352 @@
+2020-06-25 00:46:15,927 INFO test Command USER test
+2020-06-25 00:46:15,927 INFO test Response USER 331 User name okay, need password
+2020-06-25 00:46:15,928 INFO test Command PASS *****
+2020-06-25 00:46:15,928 INFO test Response PASS 230 User Logged in
+2020-06-25 00:46:15,928 INFO test Command SYST
+2020-06-25 00:46:15,929 INFO test Response SYST 215
+2020-06-25 00:46:15,951 INFO test Command PWD
+2020-06-25 00:46:15,952 INFO test Response PWD 257 /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test
+2020-06-25 00:46:15,963 INFO test Command TYPE I
+2020-06-25 00:46:15,963 INFO test Response TYPE 200 Binary mode set
+2020-06-25 00:46:15,964 INFO test Command PASV
+2020-06-25 00:46:15,964 INFO test Response PASV 227 Entering passive mode(10,0,0,190,160,132)
+2020-06-25 00:46:15,968 INFO test Command LIST
+2020-06-25 00:46:15,968 INFO test Response LIST 150 list is here
+2020-06-25 00:46:15,969 INFO test Response LIST 226 List is done transferring
+2020-06-25 05:10:32,258 INFO test Command USER test
+2020-06-25 05:10:32,264 INFO test Response USER 331 User name okay, need password
+2020-06-25 05:10:32,264 INFO test Command PASS *****
+2020-06-25 05:10:32,264 INFO test Response PASS 230 User Logged in
+2020-06-25 05:10:36,612 INFO test Command PASV
+2020-06-25 05:10:36,613 INFO test Response PASV 227 Entering passive mode(10,0,0,190,37,2)
+2020-06-25 05:10:36,614 INFO test Command LIST
+2020-06-25 05:10:36,614 INFO test Response LIST 150 list is here
+2020-06-25 05:10:36,615 INFO test Response LIST 226 List is done transferring
+2020-06-25 05:10:48,674 INFO test Command PWD
+2020-06-25 05:10:48,674 INFO test Response PWD 257 /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test
+2020-06-25 05:11:08,186 INFO test Command PASV
+2020-06-25 05:11:08,186 INFO test Response PASV 227 Entering passive mode(10,0,0,190,128,193)
+2020-06-25 05:11:08,187 INFO test Command HELP
+2020-06-25 05:11:08,187 INFO test Response HELP 214
+2020-06-25 06:12:07,491 INFO test Command USER test
+2020-06-25 06:12:07,496 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:12:07,496 INFO test Command PASS *****
+2020-06-25 06:12:07,497 INFO test Response PASS 230 User Logged in
+2020-06-25 06:12:14,378 INFO test Command PASV
+2020-06-25 06:12:14,378 INFO test Response PASV 227 Entering passive mode(10,0,0,190,108,192)
+2020-06-25 06:12:14,379 INFO test Command LIST
+2020-06-25 06:12:14,379 INFO test Response LIST 150 list is here
+2020-06-25 06:12:14,384 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:12:33,342 INFO test Command MKD test
+2020-06-25 06:12:33,342 INFO test Response MKD 257 test created
+2020-06-25 06:12:36,407 INFO test Command PASV
+2020-06-25 06:12:36,407 INFO test Response PASV 227 Entering passive mode(10,0,0,190,253,193)
+2020-06-25 06:12:36,407 INFO test Command LIST
+2020-06-25 06:12:36,407 INFO test Response LIST 150 list is here
+2020-06-25 06:12:36,408 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:12:41,138 INFO test Command CWD test
+2020-06-25 06:12:41,139 INFO test Response CWD 250 File action okay
+2020-06-25 06:12:48,223 INFO test Command CWD ..
+2020-06-25 06:12:48,224 INFO test Response CWD 250 File action okay
+2020-06-25 06:12:49,867 INFO test Command PASV
+2020-06-25 06:12:49,868 INFO test Response PASV 227 Entering passive mode(10,0,0,190,145,93)
+2020-06-25 06:12:49,868 INFO test Command LIST
+2020-06-25 06:12:49,868 INFO test Response LIST 150 list is here
+2020-06-25 06:12:49,869 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:12:56,661 INFO test Command RMD test
+2020-06-25 06:12:56,662 INFO test Response RMD 257 test created
+2020-06-25 06:13:26,693 INFO test Command PASV
+2020-06-25 06:13:26,693 INFO test Response PASV 227 Entering passive mode(10,0,0,190,11,84)
+2020-06-25 06:13:26,694 INFO test Command TYPE I
+2020-06-25 06:13:26,694 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:13:26,694 INFO test Command STOR test.pdf
+2020-06-25 06:13:26,694 INFO test Response STOR 150 Opening data channel
+2020-06-25 06:14:45,754 INFO test Command USER test
+2020-06-25 06:14:45,755 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:14:45,755 INFO test Command PASS *****
+2020-06-25 06:14:45,755 INFO test Response PASS 230 User Logged in
+2020-06-25 06:15:00,590 INFO test Command PASV
+2020-06-25 06:15:00,590 INFO test Response PASV 227 Entering passive mode(192,168,0,134,121,174)
+2020-06-25 06:15:00,591 INFO test Command TYPE I
+2020-06-25 06:15:00,591 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:15:00,591 INFO test Command STOR file.pdf
+2020-06-25 06:15:00,591 INFO test Response STOR 150 Opening data channel
+2020-06-25 06:15:00,595 INFO test Response STOR 226 Transfer of file.pdf successful
+2020-06-25 06:15:10,875 INFO test Command PASV
+2020-06-25 06:15:10,875 INFO test Response PASV 227 Entering passive mode(192,168,0,134,131,139)
+2020-06-25 06:15:10,875 INFO test Command LIST
+2020-06-25 06:15:10,876 INFO test Response LIST 150 list is here
+2020-06-25 06:15:10,876 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:15:14,987 INFO test Command QUIT
+2020-06-25 06:15:14,987 INFO test Response QUIT 221 User logged out
+2020-06-25 06:17:43,484 INFO test Command USER test
+2020-06-25 06:17:43,484 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:17:43,484 INFO test Command PASS *****
+2020-06-25 06:17:43,484 INFO test Response PASS 230 User Logged in
+2020-06-25 06:18:15,016 INFO test Command QUIT
+2020-06-25 06:18:15,016 INFO test Response QUIT 221 User logged out
+2020-06-25 06:20:03,336 INFO test Command USER test
+2020-06-25 06:20:03,336 INFO test Command USER test
+2020-06-25 06:20:03,336 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:20:03,336 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:20:03,336 INFO test Command PASS *****
+2020-06-25 06:20:03,336 INFO test Command PASS *****
+2020-06-25 06:20:03,336 INFO test Response PASS 230 User Logged in
+2020-06-25 06:20:03,336 INFO test Response PASS 230 User Logged in
+2020-06-25 06:20:08,700 INFO test Command PASV
+2020-06-25 06:20:08,700 INFO test Command PASV
+2020-06-25 06:20:08,701 INFO test Response PASV 227 Entering passive mode(192,168,0,134,19,216)
+2020-06-25 06:20:08,701 INFO test Response PASV 227 Entering passive mode(192,168,0,134,19,216)
+2020-06-25 06:20:08,701 INFO test Command LIST
+2020-06-25 06:20:08,701 INFO test Command LIST
+2020-06-25 06:20:08,701 INFO test Response LIST 150 list is here
+2020-06-25 06:20:08,701 INFO test Response LIST 150 list is here
+2020-06-25 06:20:08,702 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:20:08,702 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:20:20,871 INFO test Command MKD test
+2020-06-25 06:20:20,871 INFO test Command MKD test
+2020-06-25 06:20:20,871 INFO test Response MKD 257 test created
+2020-06-25 06:20:20,871 INFO test Response MKD 257 test created
+2020-06-25 06:20:26,624 INFO test Command PASV
+2020-06-25 06:20:26,624 INFO test Command PASV
+2020-06-25 06:20:26,625 INFO test Response PASV 227 Entering passive mode(192,168,0,134,105,119)
+2020-06-25 06:20:26,625 INFO test Response PASV 227 Entering passive mode(192,168,0,134,105,119)
+2020-06-25 06:20:26,625 INFO test Command LIST
+2020-06-25 06:20:26,625 INFO test Command LIST
+2020-06-25 06:20:26,625 INFO test Response LIST 150 list is here
+2020-06-25 06:20:26,625 INFO test Response LIST 150 list is here
+2020-06-25 06:20:26,626 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:20:26,626 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:20:36,135 INFO test Command CWD test
+2020-06-25 06:20:36,135 INFO test Command CWD test
+2020-06-25 06:20:36,135 INFO test Response CWD 250 File action okay
+2020-06-25 06:20:36,135 INFO test Response CWD 250 File action okay
+2020-06-25 06:20:42,820 INFO test Command CWD ..
+2020-06-25 06:20:42,820 INFO test Command CWD ..
+2020-06-25 06:20:42,821 INFO test Response CWD 250 File action okay
+2020-06-25 06:20:42,821 INFO test Response CWD 250 File action okay
+2020-06-25 06:20:44,523 INFO test Command PASV
+2020-06-25 06:20:44,523 INFO test Command PASV
+2020-06-25 06:20:44,524 INFO test Response PASV 227 Entering passive mode(192,168,0,134,188,58)
+2020-06-25 06:20:44,524 INFO test Response PASV 227 Entering passive mode(192,168,0,134,188,58)
+2020-06-25 06:20:44,524 INFO test Command LIST
+2020-06-25 06:20:44,524 INFO test Command LIST
+2020-06-25 06:20:44,525 INFO test Response LIST 150 list is here
+2020-06-25 06:20:44,525 INFO test Response LIST 150 list is here
+2020-06-25 06:20:44,525 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:20:44,525 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:20:54,330 INFO test Command RMD test
+2020-06-25 06:20:54,330 INFO test Command RMD test
+2020-06-25 06:20:54,331 INFO test Response RMD 257 test created
+2020-06-25 06:20:54,331 INFO test Response RMD 257 test created
+2020-06-25 06:21:27,324 INFO test Command PASV
+2020-06-25 06:21:27,324 INFO test Command PASV
+2020-06-25 06:21:27,324 INFO test Response PASV 227 Entering passive mode(192,168,0,134,31,22)
+2020-06-25 06:21:27,324 INFO test Response PASV 227 Entering passive mode(192,168,0,134,31,22)
+2020-06-25 06:21:27,325 INFO test Command TYPE I
+2020-06-25 06:21:27,325 INFO test Command TYPE I
+2020-06-25 06:21:27,325 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:21:27,325 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:21:27,325 INFO test Command STOR file.pdf
+2020-06-25 06:21:27,325 INFO test Command STOR file.pdf
+2020-06-25 06:21:27,325 INFO test Response STOR 150 Opening data channel
+2020-06-25 06:21:27,325 INFO test Response STOR 150 Opening data channel
+2020-06-25 06:24:59,956 INFO test Command USER test
+2020-06-25 06:24:59,956 INFO test Command USER test
+2020-06-25 06:24:59,956 INFO test Command USER test
+2020-06-25 06:24:59,956 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:24:59,956 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:24:59,956 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:24:59,957 INFO test Command PASS *****
+2020-06-25 06:24:59,957 INFO test Command PASS *****
+2020-06-25 06:24:59,957 INFO test Command PASS *****
+2020-06-25 06:24:59,957 INFO test Response PASS 230 User Logged in
+2020-06-25 06:24:59,957 INFO test Response PASS 230 User Logged in
+2020-06-25 06:24:59,957 INFO test Response PASS 230 User Logged in
+2020-06-25 06:25:09,136 INFO test Command PASV
+2020-06-25 06:25:09,136 INFO test Command PASV
+2020-06-25 06:25:09,136 INFO test Command PASV
+2020-06-25 06:25:09,137 INFO test Response PASV 227 Entering passive mode(192,168,0,134,52,98)
+2020-06-25 06:25:09,137 INFO test Response PASV 227 Entering passive mode(192,168,0,134,52,98)
+2020-06-25 06:25:09,137 INFO test Response PASV 227 Entering passive mode(192,168,0,134,52,98)
+2020-06-25 06:25:09,137 INFO test Command LIST
+2020-06-25 06:25:09,137 INFO test Command LIST
+2020-06-25 06:25:09,137 INFO test Command LIST
+2020-06-25 06:25:09,138 INFO test Response LIST 150 list is here
+2020-06-25 06:25:09,138 INFO test Response LIST 150 list is here
+2020-06-25 06:25:09,138 INFO test Response LIST 150 list is here
+2020-06-25 06:25:09,138 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:25:09,138 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:25:09,138 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:25:32,343 INFO test Command PASV
+2020-06-25 06:25:32,343 INFO test Command PASV
+2020-06-25 06:25:32,343 INFO test Command PASV
+2020-06-25 06:25:32,344 INFO test Response PASV 227 Entering passive mode(192,168,0,134,106,157)
+2020-06-25 06:25:32,344 INFO test Response PASV 227 Entering passive mode(192,168,0,134,106,157)
+2020-06-25 06:25:32,344 INFO test Response PASV 227 Entering passive mode(192,168,0,134,106,157)
+2020-06-25 06:25:32,344 INFO test Command TYPE I
+2020-06-25 06:25:32,344 INFO test Command TYPE I
+2020-06-25 06:25:32,344 INFO test Command TYPE I
+2020-06-25 06:25:32,344 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:25:32,344 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:25:32,344 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:25:32,344 INFO test Command STOR media.jpg
+2020-06-25 06:25:32,344 INFO test Command STOR media.jpg
+2020-06-25 06:25:32,344 INFO test Command STOR media.jpg
+2020-06-25 06:25:32,345 INFO test Response STOR 150 Opening data channel
+2020-06-25 06:25:32,345 INFO test Response STOR 150 Opening data channel
+2020-06-25 06:25:32,345 INFO test Response STOR 150 Opening data channel
+2020-06-25 06:25:32,355 INFO test Response STOR 226 Transfer of media.jpg successful
+2020-06-25 06:25:32,355 INFO test Response STOR 226 Transfer of media.jpg successful
+2020-06-25 06:25:32,355 INFO test Response STOR 226 Transfer of media.jpg successful
+2020-06-25 06:25:35,810 INFO test Command PASV
+2020-06-25 06:25:35,810 INFO test Command PASV
+2020-06-25 06:25:35,810 INFO test Command PASV
+2020-06-25 06:25:35,811 INFO test Response PASV 227 Entering passive mode(192,168,0,134,169,25)
+2020-06-25 06:25:35,811 INFO test Response PASV 227 Entering passive mode(192,168,0,134,169,25)
+2020-06-25 06:25:35,811 INFO test Response PASV 227 Entering passive mode(192,168,0,134,169,25)
+2020-06-25 06:25:35,812 INFO test Command LIST
+2020-06-25 06:25:35,812 INFO test Command LIST
+2020-06-25 06:25:35,812 INFO test Command LIST
+2020-06-25 06:25:35,812 INFO test Response LIST 150 list is here
+2020-06-25 06:25:35,812 INFO test Response LIST 150 list is here
+2020-06-25 06:25:35,812 INFO test Response LIST 150 list is here
+2020-06-25 06:25:35,813 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:25:35,813 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:25:35,813 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:26:17,044 INFO test Command PASV
+2020-06-25 06:26:17,044 INFO test Command PASV
+2020-06-25 06:26:17,044 INFO test Command PASV
+2020-06-25 06:26:17,044 INFO test Response PASV 227 Entering passive mode(192,168,0,134,37,170)
+2020-06-25 06:26:17,044 INFO test Response PASV 227 Entering passive mode(192,168,0,134,37,170)
+2020-06-25 06:26:17,044 INFO test Response PASV 227 Entering passive mode(192,168,0,134,37,170)
+2020-06-25 06:26:17,045 INFO test Command TYPE I
+2020-06-25 06:26:17,045 INFO test Command TYPE I
+2020-06-25 06:26:17,045 INFO test Command TYPE I
+2020-06-25 06:26:17,045 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:26:17,045 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:26:17,045 INFO test Response TYPE 200 Binary mode set
+2020-06-25 06:26:17,045 INFO test Command RETR media.jpg
+2020-06-25 06:26:17,045 INFO test Command RETR media.jpg
+2020-06-25 06:26:17,045 INFO test Command RETR media.jpg
+2020-06-25 06:26:17,046 INFO test Response RETR 150 Opening data channel
+2020-06-25 06:26:17,046 INFO test Response RETR 150 Opening data channel
+2020-06-25 06:26:17,046 INFO test Response RETR 150 Opening data channel
+2020-06-25 06:26:17,051 INFO test Response RETR 226 Transfer of media.jpg successful
+2020-06-25 06:26:17,051 INFO test Response RETR 226 Transfer of media.jpg successful
+2020-06-25 06:26:17,051 INFO test Response RETR 226 Transfer of media.jpg successful
+2020-06-25 06:26:28,416 INFO test Command MKD test
+2020-06-25 06:26:28,416 INFO test Command MKD test
+2020-06-25 06:26:28,416 INFO test Command MKD test
+2020-06-25 06:26:28,417 INFO test Response MKD 257 test created
+2020-06-25 06:26:28,417 INFO test Response MKD 257 test created
+2020-06-25 06:26:28,417 INFO test Response MKD 257 test created
+2020-06-25 06:26:30,031 INFO test Command PASV
+2020-06-25 06:26:30,031 INFO test Command PASV
+2020-06-25 06:26:30,031 INFO test Command PASV
+2020-06-25 06:26:30,031 INFO test Response PASV 227 Entering passive mode(192,168,0,134,79,6)
+2020-06-25 06:26:30,031 INFO test Response PASV 227 Entering passive mode(192,168,0,134,79,6)
+2020-06-25 06:26:30,031 INFO test Response PASV 227 Entering passive mode(192,168,0,134,79,6)
+2020-06-25 06:26:30,032 INFO test Command LIST
+2020-06-25 06:26:30,032 INFO test Command LIST
+2020-06-25 06:26:30,032 INFO test Command LIST
+2020-06-25 06:26:30,032 INFO test Response LIST 150 list is here
+2020-06-25 06:26:30,032 INFO test Response LIST 150 list is here
+2020-06-25 06:26:30,032 INFO test Response LIST 150 list is here
+2020-06-25 06:26:30,033 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:26:30,033 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:26:30,033 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:26:40,179 INFO test Command CWD test
+2020-06-25 06:26:40,179 INFO test Command CWD test
+2020-06-25 06:26:40,179 INFO test Command CWD test
+2020-06-25 06:26:40,180 INFO test Response CWD 250 File action okay
+2020-06-25 06:26:40,180 INFO test Response CWD 250 File action okay
+2020-06-25 06:26:40,180 INFO test Response CWD 250 File action okay
+2020-06-25 06:26:42,198 INFO test Command PASV
+2020-06-25 06:26:42,198 INFO test Command PASV
+2020-06-25 06:26:42,198 INFO test Command PASV
+2020-06-25 06:26:42,199 INFO test Response PASV 227 Entering passive mode(192,168,0,134,72,140)
+2020-06-25 06:26:42,199 INFO test Response PASV 227 Entering passive mode(192,168,0,134,72,140)
+2020-06-25 06:26:42,199 INFO test Response PASV 227 Entering passive mode(192,168,0,134,72,140)
+2020-06-25 06:26:42,199 INFO test Command LIST
+2020-06-25 06:26:42,199 INFO test Command LIST
+2020-06-25 06:26:42,199 INFO test Command LIST
+2020-06-25 06:26:42,199 INFO test Response LIST 150 list is here
+2020-06-25 06:26:42,199 INFO test Response LIST 150 list is here
+2020-06-25 06:26:42,199 INFO test Response LIST 150 list is here
+2020-06-25 06:26:42,200 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:26:42,200 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:26:42,200 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:26:49,123 INFO test Command CWD ..
+2020-06-25 06:26:49,123 INFO test Command CWD ..
+2020-06-25 06:26:49,123 INFO test Command CWD ..
+2020-06-25 06:26:49,124 INFO test Response CWD 250 File action okay
+2020-06-25 06:26:49,124 INFO test Response CWD 250 File action okay
+2020-06-25 06:26:49,124 INFO test Response CWD 250 File action okay
+2020-06-25 06:26:53,572 INFO test Command RMD test
+2020-06-25 06:26:53,572 INFO test Command RMD test
+2020-06-25 06:26:53,572 INFO test Command RMD test
+2020-06-25 06:26:53,572 INFO test Response RMD 257 test created
+2020-06-25 06:26:53,572 INFO test Response RMD 257 test created
+2020-06-25 06:26:53,572 INFO test Response RMD 257 test created
+2020-06-25 06:26:56,685 INFO test Command PASV
+2020-06-25 06:26:56,685 INFO test Command PASV
+2020-06-25 06:26:56,685 INFO test Command PASV
+2020-06-25 06:26:56,685 INFO test Response PASV 227 Entering passive mode(192,168,0,134,190,44)
+2020-06-25 06:26:56,685 INFO test Response PASV 227 Entering passive mode(192,168,0,134,190,44)
+2020-06-25 06:26:56,685 INFO test Response PASV 227 Entering passive mode(192,168,0,134,190,44)
+2020-06-25 06:26:56,686 INFO test Command LIST
+2020-06-25 06:26:56,686 INFO test Command LIST
+2020-06-25 06:26:56,686 INFO test Command LIST
+2020-06-25 06:26:56,686 INFO test Response LIST 150 list is here
+2020-06-25 06:26:56,686 INFO test Response LIST 150 list is here
+2020-06-25 06:26:56,686 INFO test Response LIST 150 list is here
+2020-06-25 06:32:14,403 INFO test Command USER test
+2020-06-25 06:32:14,404 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:32:14,404 INFO test Command PASS *****
+2020-06-25 06:32:14,404 INFO test Response PASS 230 User Logged in
+2020-06-25 06:32:56,874 INFO test Command RNFR /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test/media.jpg
+2020-06-25 06:32:56,875 WARNING test Response RNFR 350 awaiting further action 
+2020-06-25 06:33:04,866 INFO test Command RNTO /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test/newname.jpg
+2020-06-25 06:33:04,866 WARNING test Response RNTO 250 file renamed
+2020-06-25 06:33:08,978 INFO test Command PASV
+2020-06-25 06:33:08,978 INFO test Response PASV 227 Entering passive mode(192,168,0,134,144,239)
+2020-06-25 06:33:08,979 INFO test Command LIST
+2020-06-25 06:33:08,979 INFO test Response LIST 150 list is here
+2020-06-25 06:33:08,979 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:33:20,946 INFO test Command RNFR /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test/newname.jpg
+2020-06-25 06:33:20,946 WARNING test Response RNFR 350 awaiting further action 
+2020-06-25 06:33:30,205 INFO test Command RNTO /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test/media.jpg
+2020-06-25 06:33:30,205 WARNING test Response RNTO 250 file renamed
+2020-06-25 06:33:33,813 INFO test Command QUIT
+2020-06-25 06:33:33,813 INFO test Response QUIT 221 User logged out
+2020-06-25 06:35:55,442 INFO test Command USER test
+2020-06-25 06:35:55,442 INFO test Command USER test
+2020-06-25 06:35:55,442 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:35:55,442 INFO test Response USER 331 User name okay, need password
+2020-06-25 06:35:55,442 INFO test Command PASS *****
+2020-06-25 06:35:55,442 INFO test Command PASS *****
+2020-06-25 06:35:55,443 INFO test Response PASS 230 User Logged in
+2020-06-25 06:35:55,443 INFO test Response PASS 230 User Logged in
+2020-06-25 06:36:28,359 INFO test Command RNFR /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test/media.jpg
+2020-06-25 06:36:28,359 INFO test Command RNFR /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test/media.jpg
+2020-06-25 06:36:28,359 WARNING test Response RNFR 350 awaiting further action 
+2020-06-25 06:36:28,359 WARNING test Response RNFR 350 awaiting further action 
+2020-06-25 06:36:36,926 INFO test Command RNTO /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test/newname.jpg
+2020-06-25 06:36:36,926 INFO test Command RNTO /Users/Shayaan/PycharmProjects/ELEN4017_Project/Server/test/newname.jpg
+2020-06-25 06:36:36,927 WARNING test Response RNTO 250 file renamed
+2020-06-25 06:36:36,927 WARNING test Response RNTO 250 file renamed
+2020-06-25 06:36:43,038 INFO test Command PASV
+2020-06-25 06:36:43,038 INFO test Command PASV
+2020-06-25 06:36:43,039 INFO test Response PASV 227 Entering passive mode(192,168,0,134,94,138)
+2020-06-25 06:36:43,039 INFO test Response PASV 227 Entering passive mode(192,168,0,134,94,138)
+2020-06-25 06:36:43,039 INFO test Command LIST
+2020-06-25 06:36:43,039 INFO test Command LIST
+2020-06-25 06:36:43,039 INFO test Response LIST 150 list is here
+2020-06-25 06:36:43,039 INFO test Response LIST 150 list is here
+2020-06-25 06:36:43,040 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:36:43,040 INFO test Response LIST 226 List is done transferring
+2020-06-25 06:36:58,126 INFO test Command QUIT
+2020-06-25 06:36:58,126 INFO test Command QUIT
+2020-06-25 06:36:58,126 INFO test Response QUIT 221 User logged out
+2020-06-25 06:36:58,126 INFO test Response QUIT 221 User logged out

@@ -1,0 +1,3 @@
+This Project was completed for Data intensive computing (Big Data)
+
+It makes use of python and multithreading to index the HANSARDS document. 

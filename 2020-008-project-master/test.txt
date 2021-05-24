@@ -1,0 +1,37 @@
+date added,amount,description,addedby
+2020-06-17,859,Electricity,s
+2020-06-17,859,Electricity,s
+2020-06-08,700,Water,s
+2020-06-08,700,Water,s
+2020-06-17,700,Electricity,sego
+2020-06-08,780,Water,clown
+2020-06-07,500,Wi-Fi,clown
+,789,Toiletries,clown
+,789,Toiletries,clown
+undefined,10,Wi-Fi,feemo
+undefined,400,Electricity,s
+undefined,778,Wi-Fi,clown
+Mon Jun 22 2020 10:29:18 GMT+0200 (South Africa Standard Time),5,Toiletries,s
+Tue Jun 23 2020 00:33:12 GMT+0200 (South Africa Standard Time),4,chips,clown
+Tue Jun 23 2020 00:35:08 GMT+0200 (South Africa Standard Time),7,chips,clown
+Tue Jun 23 2020 00:37:08 GMT+0200 (South Africa Standard Time),7,chips,clown
+Tue Jun 23 2020 04:50:28 GMT+0200 (South Africa Standard Time),4000,Electricity,feemo
+Tue Jun 23 2020 05:10:23 GMT+0200 (South Africa Standard Time),500,Electricity,undefined
+Tue Jun 23 2020 05:13:24 GMT+0200 (South Africa Standard Time),20,Water,p
+Tue Jun 23 2020 05:15:02 GMT+0200 (South Africa Standard Time),30,Electricity,p
+
+
+date added,amount,description,paidby,paidto
+,500,Water,s,clown
+,555,Wi-Fi,clown,clown
+,789,Wi-Fi,s,clown
+,700,TV license,s,clown
+,1000,Toiletries,s,sego
+,320,Wi-Fi,clown ,s
+,480,Electricity,clown ,s
+,700,Toiletries,feemo,s
+,700,Toiletries,feemo,s
+undefined,10,Electricity,feemo,sego
+Mon Jun 22 2020 18:13:17 GMT+0200 (South Africa Standard Time),700,Electricity,feemo,sego
+Tue Jun 23 2020 04:45:39 GMT+0200 (South Africa Standard Time),700,fag,feemo,clown
+Tue Jun 23 2020 04:49:59 GMT+0200 (South Africa Standard Time),780,sd,feemo,clown

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<title>House Page </title>
+ <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+<h1> Im inside a house</h1>
+<header>
+
+    <nav>
+
+      <div class="logo">
+        <img src="/public/resources/logo.png">
+      </div>
+
+    </nav>
+     <form action="/database/leaveHouse" method="post">
+
+    <div class="form" id="leave">
+      <input type="text" class="input" id="lhouseName" name="lhouseName" placeholder="Swagger House">
+      <label class="label">Password</label>
+      <input type="password" class="input" id="lhousepassword" name="lhousepassword" placeholder="*******">
+    </div>
+
+    <button type="submit" class="btn">Leave a House</button>
+
+  </form>
+  
+<div>
+ <button onclick="location.href = 'account';" type="submit" class="float-left submit-button" >Back</button>
+</div>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "account";
+    };
+</script>
+
+  </header>
+</body>
+
+</html>
