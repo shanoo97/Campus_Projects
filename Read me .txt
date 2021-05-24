@@ -1,0 +1,7 @@
+Hi
+
+So these are some of the projects I've completed over the years at campus each subfolder will have short read me explaining what the course was about. 
+
+These are not the only projects I've done. However upon completing the course they remove the GitHub repositories, so these are the ones I have readily available. 
+
+Projects also require full reports usually, However I've left those out as I didn't think they'd be needed 
